@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalios</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Poetsen', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #F7931A; /* Orange */
+        }
+
+        .box {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid;
+            border-image: linear-gradient(to right, #F7931A, #FF0000);
+            border-image-slice: 1;
+        }
+
+        .box p {
+            margin: 0;
+        }
+
+        .icon {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="#">Staking</a></li>
+            <li><a href="#">Lock</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Play</a></li>
+        </ul>
+    </nav>
+
+    <h1>STALIOS</h1>
+
+    <div class="box">
+        <p>Welcome to Stalios! Stalios is a Decentralized Revenue Sharing Protocol that aims to allow investors to earn ETH yield through staking STA. Native token of the Stalios Protocol is STA, with STA users can participate in governance, revenue sharing and purchasing NFTs.</p>
+    </div>
+
+    <div class="icons">
+        <a href="#"><img src="twitter.png" alt="Twitter" class="icon"></a>
+        <a href="#"><img src="discord.png" alt="Discord" class="icon"></a>
+        <a href="#"><img src="telegram.png" alt="Telegram" class="icon"></a>
+    </div>
+</div>
+
+<footer>
+    <p>Stalios 2024</p>
+</footer>
+
+</body>
+</html>
